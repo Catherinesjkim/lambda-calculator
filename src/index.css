@@ -1,3 +1,15 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  box-sizing: border-box;
+  font-size: 110%;
+}
+
+#root{
+  text-align: center;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -9,4 +21,95 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.container {
+  background-color: #c00025;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  max-width: 500px;
+  height: 700px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding-bottom: 25px;
+}
+
+.logo-container {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.display {
+  font-size: 4rem;
+  background: darkgray;
+  width: 400px;
+  padding: 10px 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 45px;
+  border: 2px solid black;
+  color: white;
+}
+
+
+.spButton {
+  margin-left: 2.7%;
+  padding-right: 3%;
+}
+
+.special_button {
+  font-size: 20px;
+  display: table-column;
+  width: 70px;
+  height: 70px;
+  background: blue;
+  border: 3px solid white;
+  border-radius: 60px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+.numbers_button {
+  font-size: 30px;
+  display: table-column;
+  width: 70px;
+  height: 70px;
+  background: blue;
+  border: 3px solid white;
+  border-radius: 60px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+}
+
+.otherNum {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.operations_button {
+  display: flex;
+  justify-content: center;
+  border: 2px solid yellow;
+  width: 65px;
+  background: steelblue;
+  border: 3px solid white;
+  border-radius: 50px;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 60%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.otherOp {
+  width: 30%;
+  padding-right: 20px;
 }
