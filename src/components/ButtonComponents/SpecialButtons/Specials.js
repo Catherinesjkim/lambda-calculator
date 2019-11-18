@@ -13,7 +13,9 @@ export default function Specials() {
         component matching the name on the provided file. Pass
         it any props needed by the child component*/
           specialsState.map((special, index) => (
-            <SpecialButton key={index} buttonTextSpecials={special} />
+            <SpecialButton key={index} 
+            buttonTextSpecials={special} 
+            />
           ))}
       </div>
   );

@@ -8,17 +8,26 @@ import Logo from "./Components/DisplayComponents/Logo";
 import Numbers from "./Components/ButtonComponents/NumberButtons/Numbers";
 import Operators from "./Components/ButtonComponents/OperatorButtons/Operators";
 import Specials from "./Components/ButtonComponents/SpecialButtons/Specials";
-import Display from "./Components/DisplayComponents/Display"
-// import "./data";
+import Display from "./Components/DisplayComponents/Display";
 
 function App() {
   return (
     <div className="container">
       <Logo />
       <Display />
-      <Numbers />
-      <Operators />
-      <Specials />
+        <div className="App">
+        <Specials />
+        <section className="others">
+
+          <div>
+            <Numbers />
+          </div>
+
+        <div className="other1">
+        <Operators />
+        </div>
+        </section>
+      </div>
     </div>
   );
 }

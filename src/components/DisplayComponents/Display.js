@@ -4,7 +4,7 @@ const Display = () => {
   return <div className="display">
     {/* Display any props data here */
     }
-    1
+    0
     </div>;
 };
 
