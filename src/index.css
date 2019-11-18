@@ -24,12 +24,15 @@ code {
 }
 
 .container {
+  background-color: #c00025;
   margin: 0px;
   padding: 0px;
-  width: 450px;
+  width: 100%;
+  max-width: 500px;
   height: 700px;
   border-radius: 15px;
   box-sizing: border-box;
+  padding-bottom: 25px;
 }
 
 .logo-container {
@@ -40,27 +43,54 @@ code {
 }
 
 .display {
-  font-size: 50px;
-  background: #fff;
+  font-size: 4rem;
+  background: darkgray;
   width: 400px;
   padding: 10px 10px;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 45px;
   border: 2px solid black;
-  color: #4CAF50;
+  color: white;
+}
+
+
+.spButton {
+  margin-left: 2.7%;
+  padding-right: 3%;
 }
 
 .special_button {
-  width: 65px;
-  background: steelblue;
+  font-size: 20px;
+  display: table-column;
+  width: 70px;
+  height: 70px;
+  background: blue;
   border: 3px solid white;
   border-radius: 60px;
-  color: white;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  margin: 5px;
   text-align: center;
+}
+
+.numbers_button {
+  font-size: 30px;
+  display: table-column;
+  width: 70px;
+  height: 70px;
+  background: blue;
+  border: 3px solid white;
+  border-radius: 60px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+}
+
+.otherNum {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .operations_button {
@@ -68,26 +98,18 @@ code {
   justify-content: center;
   border: 2px solid yellow;
   width: 65px;
-  background: blue;
+  background: steelblue;
   border: 3px solid white;
-  border-radius: 60px;
+  border-radius: 50px;
   color: white;
   padding: 10px;
   margin: 10px;
-  margin-left: 80%;
+  margin-left: 60%;
   text-align: center;
+  font-size: 30px;
 }
 
-.numbers_button {
-  display: table-column;
-  border: 2px solid green;
-  width: 65px;
-  background: blue;
-  border: 3px solid white;
-  border-radius: 60px;
-  color: white;
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
-  
+.otherOp {
+  width: 30%;
+  padding-right: 20px;
 }

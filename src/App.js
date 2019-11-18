@@ -15,18 +15,19 @@ function App() {
     <div className="container">
       <Logo />
       <Display />
-        <div className="App">
-        <Specials />
-        <section className="others">
+      <div className="App">
+      <Specials />
+      <section className="otherNum">
 
-          <div>
-            <Numbers />
-          </div>
+      <div>
+      <Numbers />
+      </div>
 
-        <div className="other1">
-        <Operators />
-        </div>
-        </section>
+      <div className="otherOp">
+      <Operators />
+      </div>
+      
+      </section>
       </div>
     </div>
   );
